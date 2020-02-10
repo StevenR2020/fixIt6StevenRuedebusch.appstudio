@@ -84,8 +84,8 @@ console.log(petNames)
 let allPets = petNames.push(["Ted", "Fred", "Jed", "Ned", "Ed", "Zed"])
 console.log(allPets)
 
-let stringPets = allPets.join(["Bob", "Sam", "Andy"])
-console.log(stringPets)
+let stringPets = ["Bob", "Sam", "Andy"]
+console.log(allPets.join())
 
 petNames.unshift("Agnes")
 console.log(petNames)
